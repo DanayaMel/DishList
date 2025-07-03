@@ -1,4 +1,4 @@
-Welcome to my DishList app!
+# Welcome to my DishList app!
 
 ![screencapture-localhost-3001-2025-07-03-08_31_56](https://github.com/user-attachments/assets/f6a324ea-4424-4b03-a75e-eb131131daec)
 ![screencapture-localhost-3001-2025-07-03-08_33_07](https://github.com/user-attachments/assets/c22f0c19-5fc0-4d0c-9d35-008d95e70e93)
