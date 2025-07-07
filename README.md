@@ -1,62 +1,87 @@
-# Welcome to my DishList app!
+# 🍽️ DishList
 
-![screencapture-localhost-3001-2025-07-03-08_31_56](https://github.com/user-attachments/assets/f6a324ea-4424-4b03-a75e-eb131131daec)
-![screencapture-localhost-3001-2025-07-03-08_33_07](https://github.com/user-attachments/assets/c22f0c19-5fc0-4d0c-9d35-008d95e70e93)
-![screencapture-localhost-3001-2025-07-03-08_32_49](https://github.com/user-attachments/assets/57d88383-a019-42f5-99e5-00c5e4bf9c52)
+A full-stack web app where users can view a list of people and discover recipes based on their favorite foods.
 
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
 
-Here you can view all application users! When you click on their favorite food, a recipe appears for that meal!
+---
 
-# The steps to run the app are as follows:
+## 🚀 Features
 
-## 1. Set up the backend (Ruby on Rails API)
+- View a list of all application users
+- Click on a user’s favorite dish to get a live recipe
+- Simple, interactive interface
+- Built with a React + TypeScript frontend and a Ruby on Rails API backend
 
-### Navigate to the backend folder:
+---
 
-`cd backend`
+## 🧰 Tech Stack
 
-### Install the required gems:
+- **Frontend**: React (TypeScript)
+- **Backend**: Ruby on Rails API
+- **Testing**: RSpec (backend), React Testing Library (frontend)
 
-`bundle install`
+---
 
-### Set up the database:
+## 🛠️ Getting Started
 
-`rails db:create`
-`rails db:migrate`
-`rails db:seed`
+### 1. Backend Setup (Ruby on Rails)
 
-### Start the Rails server:
+```bash
+cd backend
+bundle install
+rails db:create
+rails db:migrate
+rails db:seed
+rails s
+```
 
-`rails s`
+### 2. Frontend Setup (React)
 
-## 2. Set up the frontend (React + TypeScript)
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### Navigate to the frontend folder:
+Visit [http://localhost:3001](http://localhost:3001) to view the app.
 
-`cd frontend`
+---
 
-### Install the dependencies:
+## ✅ Running Tests
 
-`npm install`
+### Backend (RSpec)
 
-### Start the React development server:
+```bash
+cd backend
+bundle exec rspec
+```
 
-`npm start`
+### Frontend (React Testing Library)
 
-The app will be running on http://localhost:3001.
-
-## Testing
-
-### Backend
-
-Tests for the Rails API are located in spec/requests/. To run tests:
-`bundle exec rspec`
-
-### Frontend
-
-Tests for React components are located in the same folder as the components in the src/components directory. For example:
-
+Tests are co-located with components, e.g.:
+```
 src/components/UserForm/UserForm.test.ts
+```
 
-To run the frontend tests:
-`npm test`
+To run all frontend tests:
+
+```bash
+cd frontend
+npm test
+```
+
+---
+
+## 🧾 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♀️ Author
+
+**Danaya Melendez**  
+[github.com/DanayaMel](https://github.com/DanayaMel)
