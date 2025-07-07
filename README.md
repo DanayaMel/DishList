@@ -2,9 +2,9 @@
 
 A full-stack web app where users can view a list of people and discover recipes based on their favorite foods.
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 1](screenshots/main.png)
+![Screenshot 2](screenshots/recipe.png)
+![Screenshot 3](screenshots/modal.png)
 
 ---
 
